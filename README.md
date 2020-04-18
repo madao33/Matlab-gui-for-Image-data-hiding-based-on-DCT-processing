@@ -24,7 +24,7 @@ $$after(x+i,y+9-i)=before(x+i,y+9-i)+alpha\times k(i),i\in[1,8]$$
 
 ## 插入数据流程图
 
-mermaid
+```mermaid
 graph LR
     start[开始] --> input[输入A,B,C]
     input --> conditionA{A是否大于B}
@@ -37,3 +37,4 @@ graph LR
     printA --> stop[结束]
     printC --> stop
     printB --> stop
+```
